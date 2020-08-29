@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/muxapiwithjwt/internal/handlers"
+	"github.com/niroopreddym/muxapiwithjwt/internal/handlers"
 	"net/http"
 
 	jwtmiddleware "github.com/auth0/go-jwt-middleware"

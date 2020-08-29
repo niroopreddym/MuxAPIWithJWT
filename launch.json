@@ -9,7 +9,7 @@
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "C:/Users/Niroop Reddy/go/src/github.com/muxapiwithjwt/main.go",
+            "program": "C:/Users/Niroop Reddy/go/github.com/muxapiwithjwt/main.go",
             "env": {},
             "args": [],
             "port": 2345

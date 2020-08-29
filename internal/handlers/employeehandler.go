@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 	"io/ioutil"
-	"github.com/muxapiwithjwt/internal/enums"
-	"github.com/muxapiwithjwt/internal/models"
-	"github.com/muxapiwithjwt/internal/services"
+	"github.com/niroopreddym/muxapiwithjwt/internal/enums"
+	"github.com/niroopreddym/muxapiwithjwt/internal/models"
+	"github.com/niroopreddym/muxapiwithjwt/internal/services"
 	"net/http"
 
 	"github.com/aws/aws-sdk-go/aws"
