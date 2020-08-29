@@ -1,12 +1,12 @@
 package main
 
 import (
-	"muxapiwithjwt/internal/handlers"
 	"fmt"
+	"github.com/muxapiwithjwt/internal/handlers"
 	"net/http"
 
 	jwtmiddleware "github.com/auth0/go-jwt-middleware"
-	"github.com/dgrijalva/jwt-go"
+	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/gorilla/mux"
 )
 

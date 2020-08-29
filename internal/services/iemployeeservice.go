@@ -1,6 +1,6 @@
 package services
 
-import "muxapiwithjwt/internal/models"
+import "github.com/muxapiwithjwt/internal/models"
 
 //EmployeeServiceIface abstracts the methods for EmployeeService Implementation
 type EmployeeServiceIface interface {

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 	"log"
-	client "muxapiwithjwt/internal/clients"
-	"muxapiwithjwt/internal/models"
+	client "github.com/muxapiwithjwt/internal/clients"
+	"github.com/muxapiwithjwt/internal/models"
 
 	"github.com/aws/aws-sdk-go/aws"
 	uuid "github.com/google/uuid"
