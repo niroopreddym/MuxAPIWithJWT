@@ -1,13 +1,13 @@
 package handlers
 
 import (
-	"muxapiwithjwt/enums"
-	"muxapiwithjwt/models"
-	"muxapiwithjwt/services"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"io/ioutil"
+	"muxapiwithjwt/internal/enums"
+	"muxapiwithjwt/internal/models"
+	"muxapiwithjwt/internal/services"
 	"net/http"
 
 	"github.com/aws/aws-sdk-go/aws"

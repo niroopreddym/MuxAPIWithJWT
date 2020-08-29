@@ -1,7 +1,7 @@
 package main
 
 import (
-	"muxapiwithjwt/handlers"
+	"muxapiwithjwt/internal/handlers"
 	"fmt"
 	"net/http"
 

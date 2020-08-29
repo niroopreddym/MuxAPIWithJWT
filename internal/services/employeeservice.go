@@ -1,12 +1,12 @@
 package services
 
 import (
-	client "muxapiwithjwt/clients"
-	"muxapiwithjwt/models"
 	"context"
 	"errors"
 	"fmt"
 	"log"
+	client "muxapiwithjwt/internal/clients"
+	"muxapiwithjwt/internal/models"
 
 	"github.com/aws/aws-sdk-go/aws"
 	uuid "github.com/google/uuid"
