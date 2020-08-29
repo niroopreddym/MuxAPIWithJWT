@@ -1,6 +1,6 @@
 package services
 
-import "aicumen/models"
+import "muxapiwithjwt/models"
 
 //EmployeeServiceIface abstracts the methods for EmployeeService Implementation
 type EmployeeServiceIface interface {

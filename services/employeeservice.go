@@ -1,8 +1,8 @@
 package services
 
 import (
-	client "aicumen/clients"
-	"aicumen/models"
+	client "muxapiwithjwt/clients"
+	"muxapiwithjwt/models"
 	"context"
 	"errors"
 	"fmt"
