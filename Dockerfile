@@ -10,7 +10,7 @@ RUN go mod download
 
 COPY . .
 
-RUN go install aicumen
+RUN go install github.com/niroopreddym/muxapiwithjwt
 
 ######## Start a new stage from scratch #######
 
@@ -21,9 +21,9 @@ RUN apk --no-cache add ca-certificates
 WORKDIR /root/
 
 # Copy the Pre-built binary file from the previous stage
-COPY --from=builder /go/bin/aicumen .
+COPY --from=builder /go/bin/muxapiwithjwt .
 
 EXPOSE 9293
 
 # Command to run the executable
-CMD ["./aicumen", "start"] 
+CMD ["./muxapiwithjwt", "start"] 
