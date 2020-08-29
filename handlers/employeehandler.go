@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"aicumen/enums"
-	"aicumen/models"
-	"aicumen/services"
+	"muxapiwithjwt/enums"
+	"muxapiwithjwt/models"
+	"muxapiwithjwt/services"
 	"encoding/json"
 	"errors"
 	"fmt"

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"aicumen/handlers"
+	"muxapiwithjwt/handlers"
 	"fmt"
 	"net/http"
 
